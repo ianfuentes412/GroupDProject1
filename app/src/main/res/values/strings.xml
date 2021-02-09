@@ -2,4 +2,6 @@
     <string name="app_name">GroupDProject1</string>
     <string name="ian_title">Ian Fuentes</string>
     <string name="ian_prof_desc">Ian Fuentes Profile Picture</string>
+    <string name="ian_course">BS Comp Sci</string>
+    <string name="ian_interests">Chess, Bball, Stories, Games</string>
 </resources>
