@@ -21,5 +21,11 @@
     <string name="computing_science">Computing Science</string>
     <string name="sandeepsran_gmail_com">sandeepsran@gmail.com</string>
     <string name="sports_music_netflix">Sports, Music, Netflix</string>
+    <string name="profile_image">profile_image</string>
+    <string name="education">education</string>
+    <string name="email">email</string>
+    <string name="hobbies">hobbies</string>
+
+
     <string name="text">Text</string>
 </resources>
