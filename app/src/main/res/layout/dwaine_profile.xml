@@ -4,10 +4,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/dwaine_bg">
+
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/dwaine_profile"
         android:layout_width="227dp"
         android:layout_height="233dp"
         android:layout_marginTop="60dp"
@@ -23,7 +25,7 @@
         android:layout_height="wrap_content"
         android:text="@string/dwaine_algate"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintBottom_toTopOf="@+id/dwaine_profile"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -32,11 +34,14 @@
         android:id="@+id/dwaine_course"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="8dp"
         android:text="@string/diploma_of_computing_science"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/dwaine_profile" />
 
     <TextView
         android:id="@+id/dwaine_about"
@@ -44,28 +49,45 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:text="@string/about_me"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dwaine_course" />
 
     <TextView
-        android:id="@+id/dwaine_about1"
-        android:layout_width="415dp"
-        android:layout_height="19dp"
-        android:layout_marginTop="21dp"
-        android:text="@string/if_my_profile_picture_didn_t_give_it_away_i_am_a_big_fan_of_pc_gaming"
+        android:id="@+id/dwaine_about2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/fun_fact_i_am_6_5_quot_and_yes_the_weather_is_nice_up_here"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/dwaine_hobbies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/hobbies_gaming_music_tv"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dwaine_about" />
 
     <TextView
-        android:id="@+id/dwaine_about2"
+        android:id="@+id/dwaine_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
-        android:text="@string/fun_fact_i_am_6_5_quot_and_yes_the_weather_is_nice_up_here"
+        android:layout_marginTop="32dp"
+        android:text="@string/email_dwainealgate_gmail_com"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dwaine_about1" />
+        app:layout_constraintTop_toBottomOf="@+id/dwaine_hobbies" />
 </androidx.constraintlayout.widget.ConstraintLayout>
