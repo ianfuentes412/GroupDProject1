@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/b_image">
+    android:background="@drawable/sandeep_b_image">
 
 
     <de.hdodenhof.circleimageview.CircleImageView
@@ -12,7 +12,7 @@
         android:layout_width="235dp"
         android:layout_height="218dp"
         android:foregroundGravity="center"
-        android:src="@drawable/profile_pic"
+        android:src="@drawable/sandeep_profile"
         app:civ_border_color="@color/cardview_shadow_start_color"
         app:civ_border_width="7dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -50,6 +50,7 @@
         app:layout_constraintTop_toBottomOf="@+id/education"
         app:layout_constraintVertical_bias="0.158"
         tools:ignore="MissingConstraints" />
+
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/hobbies"
