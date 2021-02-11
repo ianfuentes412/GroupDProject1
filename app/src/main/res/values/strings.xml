@@ -3,13 +3,20 @@
     <string name="ian_title">Ian Fuentes</string>
     <string name="ian_prof_desc">Ian Fuentes Profile Picture</string>
     <string name="ian_course">BS Comp Sci</string>
-    <string name="ian_interests">Chess, Bball, Stories, Games</string>
+    <string name="ian_interests">Chess, Basketball, Old Stories, Video Games</string>
+    <string name="ian_desc1">Roses are Red</string>
+    <string name="ian_desc2">Android is Blue</string>
+    <string name="ian_desc3">My code ends at 13</string>
+    <string name="ian_desc4">but my error is in line 222</string>
+
+
     <string name="dwaine_profilepic">dwaine_profilepic</string>
     <string name="dwaine_algate">Dwaine Algate</string>
     <string name="diploma_of_computing_science">Diploma of Computing Science</string>
     <string name="about_me">About Me</string>
     <string name="if_my_profile_picture_didn_t_give_it_away_i_am_a_big_fan_of_pc_gaming">If my profile picture didn\'t give it away I am a big fan of PC gaming.</string>
     <string name="fun_fact_i_am_6_5_quot_and_yes_the_weather_is_nice_up_here">"Fun Fact: I am 6'5" and yes the weather is nice up here"</string>
+
     <string name="sandeep_sran">Sandeep Sran</string>
     <string name="computing_science">Computing Science</string>
     <string name="sandeepsran_gmail_com">sandeepsran@gmail.com</string>
