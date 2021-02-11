@@ -106,7 +106,7 @@
         android:layout_width="119dp"
         android:layout_height="115dp"
         android:contentDescription="@string/ian_pic"
-        android:rotation="90"
+        android:rotation="0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.755"
