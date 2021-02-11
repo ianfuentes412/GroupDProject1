@@ -6,18 +6,6 @@
     android:layout_height="match_parent"
     android:background="@drawable/r_image">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="142dp"
-        android:layout_height="194dp"
-        android:contentDescription="@string/ryan_profilepic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.137"
-        tools:srcCompat="@drawable/ryan_profile" />
-
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
@@ -27,10 +15,10 @@
         android:textSize="45sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.475" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.14" />
 
     <TextView
         android:id="@+id/textView7"
@@ -73,5 +61,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
         app:layout_constraintVertical_bias="0.394" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="154dp"
+        android:layout_height="204dp"
+        android:contentDescription="@string/ryan_profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.144"
+        app:srcCompat="@drawable/ryan_profile" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
