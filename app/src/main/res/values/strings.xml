@@ -33,4 +33,15 @@
     <string name="computing_science_">Computing Science</string>
     <string name="rfielding_hotmail_ca">rfielding@hotmail.ca</string>
     <string name="politics_games_movies">Politics, Games, Movies</string>
+    <string name="profile_app">Profile App</string>
+    <string name="ryan_feilding">Ryan Feilding</string>
+    <string name="ian_fuentes">Ian Fuentes</string>
+
+    <string name="dwaine">Dwaine</string>
+    <string name="ryan">Ryan</string>
+    <string name="sandeep">Sandeep</string>
+    <string name="dwaine_pic">dwaine_pic</string>
+    <string name="ryan_pic">ryan_pic</string>
+    <string name="sran_pic">sran_pic</string>
+    <string name="ian_pic">ian_pic</string>
 </resources>
