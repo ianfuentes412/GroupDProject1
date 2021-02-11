@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/IanName_TV"
+        android:id="@+id/ianName_TV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ian_title"
@@ -43,7 +43,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/IanInterest_TV"
+        android:id="@+id/ianInterest_TV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ian_interests"
