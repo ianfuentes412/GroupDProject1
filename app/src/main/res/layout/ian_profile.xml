@@ -29,10 +29,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.23"
-        app:srcCompat="@drawable/Ian_profile" />
+        app:srcCompat="@drawable/ian_profile" />
 
     <TextView
-        android:id="@+id/IanCourse_TV"
+        android:id="@+id/ianCourse_TV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ian_course"
